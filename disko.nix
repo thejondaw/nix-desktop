@@ -1,9 +1,9 @@
 {
  disko.devices = {
    disk = {
-     nvme = {
+     samsung = {
        type = "disk";
-       device = "/dev/nvme0n1";
+       device = "/dev/sdb";
        content = {
          type = "gpt";
          partitions = {
